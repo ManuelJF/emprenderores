@@ -1,0 +1,100 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.activate{
+  background-color: #16a085;
+  text-decoration: underline;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+.content-header{
+  width: 100%;
+  height: 10vh;
+}
+.content-header .row-header{
+  display: flex;
+  flex-flow: row wrap;
+}
+.row-header{
+  width: 100%;
+  height:300px;
+  background-image: url("../img/home-marquee-6fc54eef80db9fe4f65e78fa558296ae.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+  display: flex;
+}
+.row-header .logo{
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.row-header .logo img {
+  width: 90%;
+  height: 15vh;
+  padding: 10px 0px 0px 10px;
+}
+.row-header .menu{
+  width: 70%;
+  display: flex;
+}
+
+.row-header .menu ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 100%;
+}
+.row-header .menu ul li{
+  list-style: none;
+  font-size: 16px;
+}
+.row-header .menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  transition: 200ms;
+}
+.row-header .menu ul li a:hover{
+  background-color: #16a085;
+  text-decoration: underline;
+  transition: 200ms;
+  border-radius: 2px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.slogan{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.slogan h2{
+  width: 30%;
+  color: #fff;
+  padding-bottom: 100px;
+  transition: 400ms;
+}
+.slogan .ins{
+  width: 100%;
+}
+.slogan .ins img{
+  width: 20%;
+  height: 10vh;
+  transition: 400ms;
+}
+.slogan .ins img:hover{
+  width: 30%;
+  height: 15vh;
+  transition: 400ms;
+  cursor: pointer;
+}
