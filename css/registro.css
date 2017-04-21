@@ -1,0 +1,40 @@
+main{
+  align-items: center;
+  justify-content: flex-start !important;
+}
+.registro{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 90%;
+  padding: 20px;
+}
+form{
+  display: flex;
+  width: 100%;
+  flex-direction: column wrap;
+  justify-content: space-around;
+}
+.col1{
+  width: 50%;
+}
+.col2{
+  width: 50%;
+}
+.box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box label{
+  padding: 10px;
+}
+.box input{
+  padding: 5px;
+  border: none;
+  height: 30px;
+  border-radius: 20px;
+}
+.btn-group{
+  width: 100%;
+}
