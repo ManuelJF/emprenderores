@@ -16,7 +16,7 @@
 }
 .content-header{
   width: 100%;
-  height: 10vh;
+  height: 7vh;
 }
 .content-header .row-header{
   display: flex;
@@ -90,67 +90,45 @@
 .slogan .ins img{
   width: 20%;
   height: 10vh;
-  transition: 400ms;
 }
-.slogan .ins img:hover{
-  width: 30%;
-  height: 15vh;
+.slogan h2:hover{
   transition: 400ms;
-  cursor: pointer;
+  padding-bottom: 0px;
 }
 .content-main{
+  background-color: #ecf0f1;
+  height: 65vh;
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0px;
+}
+.title-main{
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.content-main .curso-prev{
-  border-radius: 5px;
-  width: 50%;
   display: flex;
-  flex-flow: column wrap;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.title-main h3{
+  width: 30%;
+}
+.donaciones{
+  display: flex;
+  flex-direction: row;
+}
+.donaciones article{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
 }
-.content-main .curso-prev h3{
-  color: #16a085;
-  font-size: 30px;
-  text-decoration: underline;
+.donaciones article img{
+  width: 40%;
 }
-.content-main .curso-prev iframe{
-  margin-top: 25px;
-}
-.content-main .curso-prev .description{
+.donaciones article h4{
   padding-top: 20px;
-  text-align: center;
-  width: 50%;
-  color: #16a085;
 }
-.content-footer{
-  width: 100%;
-  height: 10vh;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  background-color: #2c3e50;
-  color: #fff;
-  font-size: 26px;
-}
-.content-footer .icon{
-  width: 20%;
-  text-align: center;
-}
-.content-footer .icon a {
-  color: #fff;
-  transition: 200ms;
-}
-.content-footer .icon a:hover{
-  color: #000;
-  font-size: 22px;
-  transition: 200ms;
+.donaciones article p{
+  padding-top: 10px;
 }
